@@ -1,11 +1,12 @@
 # awesome-aws-lifecycle-hooks
 
-## Lambdas
+## Hooks
 
 * [ecs-drain-lambda](https://github.com/getsocial-rnd/ecs-drain-lambda)
 * [amazon-k8s-node-drainer](https://github.com/aws-samples/amazon-k8s-node-drainer)
 * [terraform-aws-ecs-container-instances](https://github.com/claranet/terraform-aws-ecs-container-instances)
 * [aws-lambda-lifecycle-hooks-function](https://github.com/aws-samples/aws-lambda-lifecycle-hooks-function)
+* [lifecycle-manager](https://github.com/keikoproj/lifecycle-manager) - For EKS
 
 ## Blogs
 
