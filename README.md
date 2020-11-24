@@ -8,6 +8,31 @@
 * [aws-lambda-lifecycle-hooks-function](https://github.com/aws-samples/aws-lambda-lifecycle-hooks-function)
 * [lifecycle-manager](https://github.com/keikoproj/lifecycle-manager) - For EKS
 
+## Testing
+
+```bash
+# set variables
+INSTANCE_ID=i-aaaabbbbcccc
+ASG_NAME=asg-xyz
+LIFECYCLE_HOOK_NAME=lifecycle-xyz
+
+# terminate a specific instance id
+aws autoscaling \
+  terminate-instance-in-auto-scaling-group \
+  --should-decrement-desired-capacity \
+  --instance-id $INSTANCE_ID
+
+# once the instance is in a Terminating:Wait stage, continue the lifecycle
+aws autoscaling \
+  complete-lifecycle-action \
+  --lifecycle-action-result CONTINUE \
+  --lifecycle-hook-name $LIFECYCLE_HOOK_NAME
+  --auto-scaling-group-name $ASG_NAME \
+  --instance-id $INSTANCE_ID
+```
+
+Source: https://aws.amazon.com/premiumsupport/knowledge-center/auto-scaling-delay-termination/
+
 ## Blogs
 
 * 03 Sep 2020 - [Graceful shutdown using AWS Auto Scaling groups and Terraform](https://circleci.com/blog/graceful-shutdown-using-aws/)
