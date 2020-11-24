@@ -31,7 +31,10 @@ aws autoscaling \
   --instance-id $INSTANCE_ID
 ```
 
-Source: https://aws.amazon.com/premiumsupport/knowledge-center/auto-scaling-delay-termination/
+References
+* [ How do I delay Auto Scaling termination of unhealthy Amazon EC2 instances so I can troubleshoot them?](https://aws.amazon.com/premiumsupport/knowledge-center/auto-scaling-delay-termination/)
+* [aws autosclaing terminate-instance-in-auto-scaling-group](https://docs.aws.amazon.com/cli/latest/reference/autoscaling/terminate-instance-in-auto-scaling-group.html)
+* [aws autosclaing complete-lifecycle-action](https://docs.aws.amazon.com/cli/latest/reference/autoscaling/complete-lifecycle-action.html)
 
 ## Blogs
 
