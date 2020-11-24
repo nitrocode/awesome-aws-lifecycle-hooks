@@ -4,14 +4,17 @@
 
 ### ECS
 
-* [getsocial-rnd/ecs-drain-lambda](https://github.com/getsocial-rnd/ecs-drain-lambda)
-* [aws-samples/aws-lambda-lifecycle-hooks-function](https://github.com/aws-samples/aws-lambda-lifecycle-hooks-function)
-* [claranet/terraform-aws-ecs-container-instances](https://github.com/claranet/terraform-aws-ecs-container-instances)
+* [getsocial-rnd/ecs-drain-lambda](https://github.com/getsocial-rnd/ecs-drain-lambda) - drain using cloudwatch and lambda
+* [claranet/terraform-aws-ecs-container-instances](https://github.com/claranet/terraform-aws-ecs-container-instances) - drain using cloudwatch event, sqs, and lambda
 
 ### EKS
 
 * [aws-samples/amazon-k8s-node-drainer](https://github.com/aws-samples/amazon-k8s-node-drainer)
 * [keikoproj/lifecycle-manager](https://github.com/keikoproj/lifecycle-manager)
+
+### Backup
+
+* [aws-samples/aws-lambda-lifecycle-hooks-function](https://github.com/aws-samples/aws-lambda-lifecycle-hooks-function) - backup data to s3 using sns and lambda
 
 ## Testing
 
