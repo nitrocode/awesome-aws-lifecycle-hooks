@@ -54,6 +54,7 @@ References
 * 16 May 2018 - [AWS Auto Scaling Lifecycle](https://jayendrapatil.com/aws-auto-scaling-lifecycle/)
 * 25 Jan 2017 - [How to Automate Container Instance Draining in Amazon ECS](https://aws.amazon.com/blogs/compute/how-to-automate-container-instance-draining-in-amazon-ecs/)
 * 04 Nov 2015 - [Under the Hood: AWS CodeDeploy and Auto Scaling Integration](https://aws.amazon.com/blogs/devops/under-the-hood-aws-codedeploy-and-auto-scaling-integration/)
+* 20 Jan 2015 - [Deep Dive Into Auto Scaling Lifecycle Hooks](https://www.rightbrainnetworks.com/2015/01/20/deep-dive-into-auto-scaling-lifecycle-hooks/)
 
 ## Misc
 
