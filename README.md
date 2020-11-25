@@ -45,7 +45,7 @@ aws autoscaling \
 aws autoscaling \
   complete-lifecycle-action \
   --lifecycle-action-result CONTINUE \
-  --lifecycle-hook-name $LIFECYCLE_HOOK_NAME
+  --lifecycle-hook-name $LIFECYCLE_HOOK_NAME \
   --auto-scaling-group-name $ASG_NAME \
   --instance-id $INSTANCE_ID
 ```
