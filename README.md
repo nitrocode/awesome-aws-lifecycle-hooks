@@ -1,11 +1,22 @@
 # awesome-aws-lifecycle-hooks
 
+I was learning about lifecycle hooks recently. Before I added my own, I thought I'd do some research in the lifecycle hooks available. I was hoping to find a simple terraform module lambda for ECS. After some searching, I curated this list and thought "Why not another awesome list?" And the list was born.
+
+Feel free to contribute.
+
 ## Hooks
 
 ### ECS
 
-* [getsocial-rnd/ecs-drain-lambda](https://github.com/getsocial-rnd/ecs-drain-lambda) - drain using cloudwatch and lambda
-* [claranet/terraform-aws-ecs-container-instances](https://github.com/claranet/terraform-aws-ecs-container-instances) - drain using cloudwatch event, sqs, and lambda
+* [aws-samples/ecs-cid-sample](https://github.com/aws-samples/ecs-cid-sample) - Drain using cloudwatch event, sns, and python lambda. Deploy with cloudformation.
+* [getsocial-rnd/ecs-drain-lambda](https://github.com/getsocial-rnd/ecs-drain-lambda) - Drain using cloudwatch event and golang lambda. Deploy with sls.
+* [terraform-community-modules/tf_aws_ecs_instance_draining_on_scale_in](https://github.com/terraform-community-modules/tf_aws_ecs_instance_draining_on_scale_in)
+* [ktruckenmiller/aws-ecs-spot-instance-drainer](https://github.com/ktruckenmiller/aws-ecs-spot-instance-drainer)
+* [blinkist/terraform-aws-airship-ecs-instance-draining](https://github.com/blinkist/terraform-aws-airship-ecs-instance-draining) - Drain using cloudwatch event, sns, and python lambda. Deploy lambda with terraform.
+* [btisdall/ecs-cid](https://github.com/btisdall/ecs-cid)
+* [docker-production-aws/lambda-lifecycle-hooks](https://github.com/docker-production-aws/lambda-lifecycle-hooks/tree/final)
+* [ericdahl/tf-ecs](https://github.com/ericdahl/tf-ecs) - Drain using cloudwatch event, sns, and python lambda. Deploy with terraform.
+* [claranet/terraform-aws-ecs-container-instances](https://github.com/claranet/terraform-aws-ecs-container-instances) - Drain using cloudwatch event, sqs, and python lambda. Deploy with terraform.
 
 ### EKS
 
