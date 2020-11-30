@@ -29,12 +29,13 @@ Feel free to contribute.
 
 ## Invocation conditions
 
-| Condition                 | Invoked? |
-| ------------------------- | -------- |
-| Spot interruption         | Yes |
-| EC2 instance degradation  | Yes |
-| ASG instance refresh      | Yes |
-| EC2 manual termination    | No |
+| Condition                       | Invoked? |
+| ------------------------------- | -------- |
+| Spot interruption               | Yes |
+| EC2 instance degradation        | Yes |
+| ASG instance refresh            | Yes |
+| [EC2 manual termination from CLI](https://docs.aws.amazon.com/cli/latest/reference/autoscaling/terminate-instance-in-auto-scaling-group.html) | Yes |
+| EC2 manual termination from UI  | No |
 
 ## Testing
 
