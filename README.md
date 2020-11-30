@@ -27,6 +27,15 @@ Feel free to contribute.
 
 * [aws-samples/aws-lambda-lifecycle-hooks-function](https://github.com/aws-samples/aws-lambda-lifecycle-hooks-function) - backup data to s3 using sns and lambda
 
+## Invocation conditions
+
+| Condition                 | Invoked? |
+| ------------------------- | -------- |
+| Spot interruption         | Yes |
+| EC2 instance degradation  | Yes |
+| ASG instance refresh      | Yes |
+| EC2 manual termination    | No |
+
 ## Testing
 
 ```bash
