@@ -34,6 +34,7 @@ Feel free to contribute.
 | Spot interruption               | Yes |
 | EC2 instance degradation        | Yes |
 | ASG instance refresh            | Yes |
+| ASG max instance lifetime       | Yes |
 | [EC2 manual termination from CLI](https://docs.aws.amazon.com/cli/latest/reference/autoscaling/terminate-instance-in-auto-scaling-group.html) | Yes |
 | EC2 manual termination from UI  | No |
 
