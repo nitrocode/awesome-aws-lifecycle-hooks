@@ -8,15 +8,17 @@ Feel free to contribute.
 
 ### ECS
 
-* [aws-samples/ecs-cid-sample](https://github.com/aws-samples/ecs-cid-sample) - Drain using cloudwatch event, sns, and python lambda. Deploy with cloudformation.
-* [getsocial-rnd/ecs-drain-lambda](https://github.com/getsocial-rnd/ecs-drain-lambda) - Drain using cloudwatch event and golang lambda. Deploy with sls.
-* [terraform-community-modules/tf_aws_ecs_instance_draining_on_scale_in](https://github.com/terraform-community-modules/tf_aws_ecs_instance_draining_on_scale_in)
-* [ktruckenmiller/aws-ecs-spot-instance-drainer](https://github.com/ktruckenmiller/aws-ecs-spot-instance-drainer)
-* [blinkist/terraform-aws-airship-ecs-instance-draining](https://github.com/blinkist/terraform-aws-airship-ecs-instance-draining) - Drain using cloudwatch event, sns, and python lambda. Deploy lambda with terraform.
-* [btisdall/ecs-cid](https://github.com/btisdall/ecs-cid)
-* [docker-production-aws/lambda-lifecycle-hooks](https://github.com/docker-production-aws/lambda-lifecycle-hooks/tree/final)
-* [ericdahl/tf-ecs](https://github.com/ericdahl/tf-ecs) - Drain using cloudwatch event, sns, and python lambda. Deploy with terraform.
-* [claranet/terraform-aws-ecs-container-instances](https://github.com/claranet/terraform-aws-ecs-container-instances) - Drain using cloudwatch event, sqs, and python lambda. Deploy with terraform.
+| Repo                       | Resources | Provisioner |
+| ------------------------------- | -------- | -------- |
+| [aws-samples/ecs-cid-sample](https://github.com/aws-samples/ecs-cid-sample) | cloudwatch event, sns, python lambda | cloudformation |
+| [getsocial-rnd/ecs-drain-lambda](https://github.com/getsocial-rnd/ecs-drain-lambda) | cloudwatch event, golang lambda | sls |
+| [terraform-community-modules/tf_aws_ecs_instance_draining_on_scale_in](https://github.com/terraform-community-modules/tf_aws_ecs_instance_draining_on_scale_in) | |
+| [ktruckenmiller/aws-ecs-spot-instance-drainer](https://github.com/ktruckenmiller/aws-ecs-spot-instance-drainer) | |
+| [blinkist/terraform-aws-airship-ecs-instance-draining](https://github.com/blinkist/terraform-aws-airship-ecs-instance-draining) | cloudwatch event, sns, python lambda | terraform |
+| [btisdall/ecs-cid](https://github.com/btisdall/ecs-cid) | |
+| [docker-production-aws/lambda-lifecycle-hooks](https://github.com/docker-production-aws/lambda-lifecycle-hooks/tree/final) | |
+| [ericdahl/tf-ecs](https://github.com/ericdahl/tf-ecs) | cloudwatch event, sns, python lambda | terraform |
+| [claranet/terraform-aws-ecs-container-instances](https://github.com/claranet/terraform-aws-ecs-container-instances) | cloudwatch event, sqs, python lambda |  terraform |
 
 ### EKS
 
@@ -63,8 +65,8 @@ aws autoscaling \
 
 References
 * [ How do I delay Auto Scaling termination of unhealthy Amazon EC2 instances so I can troubleshoot them?](https://aws.amazon.com/premiumsupport/knowledge-center/auto-scaling-delay-termination/)
-* [aws autosclaing terminate-instance-in-auto-scaling-group](https://docs.aws.amazon.com/cli/latest/reference/autoscaling/terminate-instance-in-auto-scaling-group.html)
-* [aws autosclaing complete-lifecycle-action](https://docs.aws.amazon.com/cli/latest/reference/autoscaling/complete-lifecycle-action.html)
+* [aws autoscaling terminate-instance-in-auto-scaling-group](https://docs.aws.amazon.com/cli/latest/reference/autoscaling/terminate-instance-in-auto-scaling-group.html)
+* [aws autoscaling complete-lifecycle-action](https://docs.aws.amazon.com/cli/latest/reference/autoscaling/complete-lifecycle-action.html)
 
 ## Blogs
 
