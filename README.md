@@ -70,6 +70,7 @@ References
 
 ## Blogs
 
+* 24 Dec 2021 - [Sending EC2 logs to S3 via lifecycle hooks](https://shishirkh.medium.com/sending-ec2-logs-to-s3-via-lifecycle-hooks-66d4d059596e) - great explanation and diagrams
 * 03 Sep 2020 - [Graceful shutdown using AWS Auto Scaling groups and Terraform](https://circleci.com/blog/graceful-shutdown-using-aws/)
 * 04 Oct 2019 - [Autoscaling like a pro: how to use EC2 Auto Scaling Lifecycle Hooks, the right way.](https://medium.com/proud2becloud/autoscaling-like-a-pro-how-to-use-ec2-auto-scaling-lifecycle-hooks-the-right-way-da7ef4448a03)
 * 22 Sep 2019 - [Scale down a Kube Cluster Minion without Downtime using AWS Autoscaling Lifecycle Hook — Part III](https://www.powerupcloud.com/bscale-down-a-kube-cluster-minion-without-downtime-using-aws-autoscaling-lifecycle-hook-part-3/)
