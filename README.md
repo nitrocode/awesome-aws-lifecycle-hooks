@@ -10,15 +10,15 @@ Feel free to contribute.
 
 | Repo                       | Resources | Provisioner |
 | ------------------------------- | -------- | -------- |
-| [aws-samples/ecs-cid-sample](https://github.com/aws-samples/ecs-cid-sample) | cloudwatch event, sns, python lambda | cloudformation |
 | [getsocial-rnd/ecs-drain-lambda](https://github.com/getsocial-rnd/ecs-drain-lambda) | cloudwatch event, golang lambda | sls,  [terraform](https://github.com/nabeken/terraform-aws-ecs-drain-lambda/tree/main) |
 | [ericdahl/tf-ecs](https://github.com/ericdahl/tf-ecs) | cloudwatch event, sns, python lambda | terraform |
 | [terraform-community-modules/tf_aws_ecs_instance_draining_on_scale_in](https://github.com/terraform-community-modules/tf_aws_ecs_instance_draining_on_scale_in) | | terraform |
-| [ktruckenmiller/aws-ecs-spot-instance-drainer](https://github.com/ktruckenmiller/aws-ecs-spot-instance-drainer) | |
+| [ktruckenmiller/aws-ecs-spot-instance-drainer](https://github.com/ktruckenmiller/aws-ecs-spot-instance-drainer) | | cloudformation |
 | ~[blinkist/terraform-aws-airship-ecs-instance-draining](https://github.com/blinkist/terraform-aws-airship-ecs-instance-draining)~ | cloudwatch event, sns, python lambda | terraform |
 | [btisdall/ecs-cid](https://github.com/btisdall/ecs-cid) | |
 | [docker-production-aws/lambda-lifecycle-hooks](https://github.com/docker-production-aws/lambda-lifecycle-hooks/tree/final) | |
 | [claranet/terraform-aws-ecs-container-instances](https://github.com/claranet/terraform-aws-ecs-container-instances) | cloudwatch event, sqs, python lambda |  terraform |
+| [aws-samples/ecs-cid-sample](https://github.com/aws-samples/ecs-cid-sample) | cloudwatch event, sns, python lambda | cloudformation |
 
 ### EKS
 
